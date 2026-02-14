@@ -1,9 +1,9 @@
 /* =========================================
-   IGNITE UP – FINAL PROFESSIONAL CSS
+   IGNITE UP – STABLE PROFESSIONAL CSS
 ========================================= */
 
 /* ===== GOOGLE FONTS ===== */
-/* Add this inside <head> of your HTML:
+/* Add inside <head> of HTML:
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 */
 
@@ -33,37 +33,25 @@ body {
 }
 
 /* =========================================
-   HEADER – FULL LOGO HEIGHT VERSION
+   HEADER (STABLE ALIGNMENT VERSION)
 ========================================= */
 
 header {
   background: var(--steel-light);
-  height: 110px;               /* Header height */
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
+  padding: 20px 40px;   /* Header height controlled here */
   border-bottom: 1px solid #d5dbe3;
 }
 
 nav {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Logo container */
-.logo {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-/* Logo fills header height */
+/* Logo enlarged safely */
 .logo img {
-  height: 100%;
+  height: 100px;   /* Adjust between 90–110 if needed */
   width: auto;
-  object-fit: contain;
   display: block;
 }
 
@@ -83,7 +71,7 @@ nav {
   transition: 0.3s ease;
 }
 
-/* Underline hover effect */
+/* Hover underline */
 .nav-links a::after,
 .dropdown > a::after {
   content: "";
@@ -308,12 +296,11 @@ textarea {
 @media(max-width: 768px) {
 
   header {
-    height: 80px;
-    padding: 0 20px;
+    padding: 15px 20px;
   }
 
   .logo img {
-    height: 100%;
+    height: 80px;
   }
 
   .nav-links {
