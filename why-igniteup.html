@@ -10,56 +10,71 @@
 <body>
 
 <header>
-  <nav>
-    <strong>IgniteUP</strong>
-    <a href="index.html">Home</a>
-    <a href="msme-subsidy.html">Services</a>
-    <a href="about.html">About Us</a>
-    <a href="why-igniteup.html">Why IgniteUP</a>
-    <a href="contact.html">Contact</a>
+  <nav style="display:flex; align-items:center; justify-content:space-between; padding:10px 0;">
+    <div>
+      <img src="logo.png" alt="IgniteUP Logo" style="height:130px;">
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+
+      <div class="dropdown">
+        <a href="#">Services ▼</a>
+        <div class="dropdown-content">
+          <a href="msme-subsidy.html">MSME Subsidy Assistance</a>
+          <a href="finance-funding.html">Finance & Funding Support</a>
+          <a href="insurance.html">Insurance Risk Advisory</a>
+          <a href="business-visibility.html">Business Visibility Advisory</a>
+        </div>
+      </div>
+
+      <a href="about.html">About Us</a>
+      <a href="why-igniteup.html">Why IgniteUP</a>
+      <a href="contact.html">Contact</a>
+    </div>
   </nav>
 </header>
 
-<div class="section">
+<div class="hero" style="
+  background: linear-gradient(rgba(11,94,215,0.6), rgba(11,94,215,0.6)),
+  url('https://images.unsplash.com/photo-1507679799987-c73779587ccf');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+">
 
   <h1>Why IgniteUP</h1>
+  <h3>Structured, Ethical & Compliance-Driven Advisory</h3>
 
-  <p>
-    IgniteUP is positioned as a professional advisory firm providing structured,
-    compliance-driven consulting services to Micro, Small and Medium Enterprises
-    across Haryana.
-  </p>
+</div>
 
-  <h2>Advisory Approach</h2>
+<div class="section">
 
-  <p>
-    Our work is guided by practices similar to reputed CA and legal consulting
-    firms, with strong emphasis on documentation accuracy, regulatory compliance,
-    and ethical advisory.
-  </p>
+  <h2>Our Differentiators</h2>
 
-  <h2>Haryana-Focused Expertise</h2>
+  <div class="services">
 
-  <p>
-    IgniteUP operates with a deep understanding of state-specific MSME policies,
-    departmental procedures, and institutional expectations relevant to businesses
-    across Haryana.
-  </p>
+    <div class="service-card">
+      <h3>Compliance-First Approach</h3>
+      <p>Structured advisory aligned with regulatory requirements.</p>
+    </div>
 
-  <h2>Integrated Professional Support</h2>
+    <div class="service-card">
+      <h3>Documentation Discipline</h3>
+      <p>Strong focus on procedural and documentary accuracy.</p>
+    </div>
 
-  <p>
-    We provide advisory support across multiple interconnected domains,
-    including government subsidies, financial structuring, risk management,
-    and professional business visibility.
-  </p>
+    <div class="service-card">
+      <h3>Haryana-Focused Expertise</h3>
+      <p>Understanding of state-specific MSME policies and frameworks.</p>
+    </div>
 
-  <h2>Proven Track Record</h2>
+    <div class="service-card">
+      <h3>Integrated Advisory Model</h3>
+      <p>Support across subsidy, finance, insurance, and visibility domains.</p>
+    </div>
 
-  <p>
-    IgniteUP has supported more than 20 MSMEs and facilitated over ₹35 Crore
-    in government subsidy benefits through structured and compliant processes.
-  </p>
+  </div>
 
 </div>
 
