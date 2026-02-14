@@ -1,5 +1,5 @@
 /* =========================================
-   IGNITE UP – STABLE PROFESSIONAL CSS
+   IGNITE UP – FINAL PROFESSIONAL CSS
 ========================================= */
 
 /* ===== GOOGLE FONTS ===== */
@@ -33,24 +33,29 @@ body {
 }
 
 /* =========================================
-   HEADER (STABLE ALIGNMENT VERSION)
+   HEADER – CONTROLLED HEIGHT VERSION
 ========================================= */
 
 header {
   background: var(--steel-light);
-  padding: 40px 50px;
+  height: 140px;              /* Controls steel grey area */
+  padding: 0 50px;            /* No vertical padding */
   border-bottom: 1px solid #d5dbe3;
+  display: flex;
+  align-items: center;        /* Vertically center content */
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
-/* Logo reduced by ~50% */
+/* Logo fills header properly */
 .logo img {
-  height: 120px;   /* Reduced size */
+  height: 100%;
+  max-height: 140px;
   width: auto;
   display: block;
 }
@@ -296,11 +301,12 @@ textarea {
 @media(max-width: 768px) {
 
   header {
-    padding: 40px 50px;
+    height: 90px;
+    padding: 0 20px;
   }
 
   .logo img {
-    height: 70px;
+    max-height: 90px;
   }
 
   .nav-links {
