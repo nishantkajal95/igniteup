@@ -23,9 +23,11 @@ body {
 
 /* ===== HEADER ===== */
 header {
-  background: var(--primary);
+  background: #e9edf2; /* light steel grey */
   padding: 15px 40px;
+  border-bottom: 1px solid #d5dbe3;
 }
+
 
 nav {
   display: flex;
