@@ -38,7 +38,7 @@ body {
 
 header {
   background: var(--steel-light);
-  padding: 20px 40px;
+  padding: 40px 50px;
   border-bottom: 1px solid #d5dbe3;
 }
 
@@ -50,7 +50,7 @@ nav {
 
 /* Logo reduced by ~50% */
 .logo img {
-  height: 100px;   /* Reduced size */
+  height: 120px;   /* Reduced size */
   width: auto;
   display: block;
 }
@@ -296,11 +296,11 @@ textarea {
 @media(max-width: 768px) {
 
   header {
-    padding: 30px 40px;
+    padding: 40px 50px;
   }
 
   .logo img {
-    height: 50px;
+    height: 70px;
   }
 
   .nav-links {
