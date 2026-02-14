@@ -48,11 +48,12 @@ nav {
 
 .nav-links a,
 .dropdown > a {
-  color: var(--white);
+  color: var(--primary);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
 }
+
 
 /* subtle hover underline */
 .nav-links a::after,
