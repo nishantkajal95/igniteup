@@ -74,3 +74,21 @@ header nav a:hover {
   text-align: center;
   margin-top: 40px;
 }
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.service-card h3 {
+  margin-top: 0;
+  color: #0b5ed7;
+}
+
