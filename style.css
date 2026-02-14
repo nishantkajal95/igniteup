@@ -50,7 +50,7 @@ nav {
 
 /* Logo reduced by ~50% */
 .logo img {
-  height: 50px;   /* Reduced size */
+  height: 75px;   /* Reduced size */
   width: auto;
   display: block;
 }
@@ -300,7 +300,7 @@ textarea {
   }
 
   .logo img {
-    height: 40px;
+    height: 50px;
   }
 
   .nav-links {
