@@ -104,4 +104,14 @@ header nav a:hover {
   font-size: 32px;
   margin-bottom: 5px;
 }
+.cta-banner {
+  background: #0b5ed7;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-banner h2 {
+  margin-bottom: 15px;
+}
 
