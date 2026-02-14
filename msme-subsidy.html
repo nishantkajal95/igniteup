@@ -5,6 +5,46 @@
   <title>MSME Subsidy Assistance | IgniteUP</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 230px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      border-radius: 6px;
+      overflow: hidden;
+      top: 30px;
+    }
+
+    .dropdown-content a {
+      color: #1f2933;
+      padding: 12px 16px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f5f9;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -14,24 +54,33 @@
     <div>
       <img src="logo.png" alt="IgniteUP Logo" style="height:130px;">
     </div>
-    <div>
+
+    <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="msme-subsidy.html">MSME Subsidy</a>
-      <a href="finance-funding.html">Finance</a>
-      <a href="insurance.html">Insurance</a>
-      <a href="business-visibility.html">Visibility</a>
+
+      <div class="dropdown">
+        <a href="#">Services ▼</a>
+        <div class="dropdown-content">
+          <a href="msme-subsidy.html">MSME Subsidy Assistance</a>
+          <a href="finance-funding.html">Finance & Funding Support</a>
+          <a href="insurance.html">Insurance Risk Advisory</a>
+          <a href="business-visibility.html">Business Visibility Advisory</a>
+        </div>
+      </div>
+
+      <a href="about.html">About Us</a>
+      <a href="why-igniteup.html">Why IgniteUP</a>
       <a href="contact.html">Contact</a>
     </div>
   </nav>
 </header>
 
-<!-- HERO -->
 <div class="hero" style="
   background: linear-gradient(rgba(11,94,215,0.6), rgba(11,94,215,0.6)),
   url('https://images.unsplash.com/photo-1581090700227-4c4b8dfcf0f8');
   background-size: cover;
   background-position: center;
-  padding: 120px 20px;
+  padding: 140px 20px;
 ">
 
   <h1>MSME Subsidy Assistance</h1>
@@ -39,73 +88,45 @@
 
 </div>
 
-<!-- INTRO -->
 <div class="section">
-
   <h2>Professional Subsidy Advisory</h2>
-
   <p>
     IgniteUP provides structured advisory and facilitation support for
     eligible Central and Haryana Government subsidy schemes applicable
-    to Micro, Small and Medium Enterprises (MSMEs).
+    to MSMEs.
   </p>
-
-  <p>
-    Our approach is compliance-driven and documentation-focused,
-    aligned with the standards followed by reputed CA and legal advisory firms.
-  </p>
-
 </div>
 
-<!-- WHAT WE DO -->
 <div class="section">
-
-  <h2>Our Support Includes</h2>
+  <h2>Our Structured Support Model</h2>
 
   <div class="services">
-
     <div class="service-card">
-      <h3>Eligibility Assessment</h3>
-      <p>Identification of applicable subsidy schemes based on business profile and location.</p>
+      <h3>Eligibility Mapping</h3>
+      <p>Identification of relevant schemes based on industry and investment profile.</p>
     </div>
 
     <div class="service-card">
-      <h3>Scheme Interpretation</h3>
-      <p>Clear explanation of benefit structure, caps, timelines, and compliance requirements.</p>
+      <h3>Scheme Structuring</h3>
+      <p>Interpretation of subsidy caps, timelines and compliance conditions.</p>
     </div>
 
     <div class="service-card">
-      <h3>Documentation Structuring</h3>
-      <p>Guidance on preparing accurate and compliant application documentation.</p>
+      <h3>Documentation Architecture</h3>
+      <p>Preparation guidance ensuring procedural alignment.</p>
     </div>
 
     <div class="service-card">
-      <h3>Departmental Coordination</h3>
-      <p>Professional follow-ups and process guidance during review and disbursement stages.</p>
+      <h3>Process Monitoring</h3>
+      <p>Structured follow-up during review stages.</p>
     </div>
-
   </div>
-
 </div>
 
-<!-- IMPORTANT NOTE -->
-<div class="section">
-
-  <h2>Important Considerations</h2>
-
-  <p>
-    Subsidy outcomes are subject to statutory eligibility, procedural compliance,
-    and approval by relevant government authorities. IgniteUP provides advisory
-    and facilitation support but does not guarantee subsidy sanction.
-  </p>
-
-</div>
-
-<!-- CTA -->
 <div class="cta-banner">
-  <h2>Explore Your Subsidy Eligibility</h2>
+  <h2>Evaluate Your Subsidy Potential</h2>
   <p>
-    Discuss your business profile with IgniteUP for structured advisory guidance.
+    Discuss your business structure confidentially with IgniteUP.
   </p>
   <p>
     <a href="contact.html" style="color:white; font-weight:bold;">
