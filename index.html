@@ -1,194 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>IgniteUP | From Vision to Visibility</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+/* DROPDOWN MENU */
 
-  <style>
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: white;
-      min-width: 230px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-      border-radius: 6px;
-      overflow: hidden;
-      top: 30px;
-    }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 230px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  overflow: hidden;
+  top: 30px;
+}
 
-    .dropdown-content a {
-      color: #1f2933;
-      padding: 12px 16px;
-      display: block;
-      text-decoration: none;
-    }
+.dropdown-content a {
+  color: #1f2933;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
 
-    .dropdown-content a:hover {
-      background-color: #f1f5f9;
-    }
+.dropdown-content a:hover {
+  background-color: #f1f5f9;
+}
 
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  </style>
-
-</head>
-
-<body>
-
-<header>
-  <nav style="display:flex; align-items:center; justify-content:space-between; padding:10px 0;">
-    <div>
-      <img src="logo.png" alt="IgniteUP Logo" style="height:130px;">
-    </div>
-
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-
-      <div class="dropdown">
-        <a href="#">Services ▼</a>
-        <div class="dropdown-content">
-          <a href="msme-subsidy.html">MSME Subsidy Assistance</a>
-          <a href="finance-funding.html">Finance & Funding Support</a>
-          <a href="insurance.html">Insurance Risk Advisory</a>
-          <a href="business-visibility.html">Business Visibility Advisory</a>
-        </div>
-      </div>
-
-      <a href="about.html">About Us</a>
-      <a href="why-igniteup.html">Why IgniteUP</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
-</header>
-
-<!-- HERO -->
-<div class="hero" style="
-  background: linear-gradient(rgba(11,94,215,0.55), rgba(11,94,215,0.55)),
-  url('https://images.unsplash.com/photo-1556157382-97eda2d62296');
-  background-size: cover;
-  background-position: center;
-  padding: 140px 20px 100px;
-">
-
-  <h1>IgniteUP</h1>
-  <h3>From Vision to Visibility</h3>
-
-  <p style="max-width:700px; margin:auto;">
-    Strategic consulting for Haryana MSMEs enabling government subsidies,
-    structured finance, risk protection, and professional business visibility.
-  </p>
-
-  <p><strong>20+ MSMEs Served | ₹35+ Crore Subsidy Facilitated</strong></p>
-
-  <a href="contact.html">
-    <button class="button">Request a Confidential Consultation</button>
-  </a>
-
-</div>
-
-<!-- ABOUT -->
-<div class="section">
-  <h2>Professional Advisory for Haryana MSMEs</h2>
-  <p>
-    IgniteUP provides structured, compliance-driven consulting services
-    aligned with institutional standards and procedural discipline.
-  </p>
-</div>
-
-<!-- SERVICES -->
-<div class="section">
-  <h2>Our Core Advisory Services</h2>
-
-  <div class="services">
-
-    <div class="service-card">
-      <h3>💰 MSME Subsidy Assistance</h3>
-      <p>Structured advisory and facilitation support for eligible government subsidies.</p>
-      <a href="msme-subsidy.html">Learn More →</a>
-    </div>
-
-    <div class="service-card">
-      <h3>🏦 Finance & Funding Support</h3>
-      <p>Professional financial structuring aligned with MSME growth requirements.</p>
-      <a href="finance-funding.html">Learn More →</a>
-    </div>
-
-    <div class="service-card">
-      <h3>🛡 Insurance Risk Advisory</h3>
-      <p>Independent advisory on appropriate insurance coverage for business risks.</p>
-      <a href="insurance.html">Learn More →</a>
-    </div>
-
-    <div class="service-card">
-      <h3>📈 Business Visibility Advisory</h3>
-      <p>Guidance on building professional and credible market presence.</p>
-      <a href="business-visibility.html">Learn More →</a>
-    </div>
-
-  </div>
-</div>
-
-<!-- WHY -->
-<div class="section">
-  <h2>Why Businesses Trust IgniteUP</h2>
-  <ul>
-    <li>Compliance-first advisory approach</li>
-    <li>Strong documentation expertise</li>
-    <li>Haryana-specific MSME knowledge</li>
-    <li>Integrated support across subsidy, finance, and visibility</li>
-  </ul>
-</div>
-
-<!-- STATS -->
-<div class="section">
-  <h2>Our Track Record</h2>
-  <div class="stats">
-    <div class="stat-box">
-      <h2>20+</h2>
-      <p>MSMEs Supported</p>
-    </div>
-    <div class="stat-box">
-      <h2>₹35+ Cr</h2>
-      <p>Subsidy Facilitated</p>
-    </div>
-    <div class="stat-box">
-      <h2>Haryana</h2>
-      <p>Focused Expertise</p>
-    </div>
-  </div>
-</div>
-
-<!-- CTA -->
-<div class="cta-banner">
-  <h2>Discuss Your Business in Confidence</h2>
-  <p>
-    A professional consultation can help you identify the right subsidies,
-    funding options, and growth strategies.
-  </p>
-  <p>
-    <a href="contact.html" style="color:white; font-weight:bold;">
-      Contact IgniteUP Today →
-    </a>
-  </p>
-</div>
-
-<div class="footer">
-  © IgniteUP | Professional MSME Advisory
-</div>
-
-</body>
-</html>
+.dropdown:hover .dropdown-content {
+  display: block;
+}
