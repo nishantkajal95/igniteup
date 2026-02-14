@@ -1,4 +1,4 @@
-/* RESET */
+/* ===== GLOBAL RESET ===== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,12 +7,12 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
   color: #1f2933;
-  background-color: #ffffff;
   line-height: 1.6;
 }
 
-/* HEADER */
+/* ===== HEADER ===== */
 header {
   background: #0b5ed7;
   padding: 15px 40px;
@@ -24,7 +24,11 @@ nav {
   align-items: center;
 }
 
-/* NAVIGATION LINKS */
+.logo img {
+  height: 130px;
+}
+
+/* ===== NAVIGATION ===== */
 .nav-links {
   display: flex;
   align-items: center;
@@ -38,7 +42,7 @@ nav {
   font-weight: 500;
 }
 
-/* DROPDOWN */
+/* ===== DROPDOWN ===== */
 .dropdown {
   position: relative;
 }
@@ -46,12 +50,12 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background: white;
-  min-width: 240px;
   top: 100%;
   left: 0;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  background: white;
+  min-width: 240px;
   border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   padding: 10px 0;
   z-index: 1000;
 }
@@ -64,17 +68,20 @@ nav {
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f5f9;
+  background: #f1f5f9;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* HERO */
+/* ===== HERO ===== */
 .hero {
   text-align: center;
   color: white;
+  padding: 140px 20px 100px;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
@@ -87,7 +94,7 @@ nav {
   margin-bottom: 20px;
 }
 
-/* SECTIONS */
+/* ===== SECTIONS ===== */
 .section {
   max-width: 1100px;
   margin: auto;
@@ -98,11 +105,7 @@ nav {
   margin-bottom: 20px;
 }
 
-.section p {
-  margin-bottom: 20px;
-}
-
-/* SERVICE GRID */
+/* ===== SERVICES GRID ===== */
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -123,7 +126,7 @@ nav {
   margin-bottom: 10px;
 }
 
-/* STATS */
+/* ===== STATS ===== */
 .stats {
   display: flex;
   justify-content: center;
@@ -138,7 +141,7 @@ nav {
   color: #0b5ed7;
 }
 
-/* BUTTON */
+/* ===== BUTTON ===== */
 .button {
   background: white;
   color: #0b5ed7;
@@ -149,7 +152,7 @@ nav {
   cursor: pointer;
 }
 
-/* CTA */
+/* ===== CTA ===== */
 .cta-banner {
   background: linear-gradient(135deg, #0b5ed7, #4c8bf5);
   color: white;
@@ -157,7 +160,7 @@ nav {
   padding: 80px 20px;
 }
 
-/* FOOTER */
+/* ===== FOOTER ===== */
 .footer {
   background: #f1f5f9;
   padding: 30px;
